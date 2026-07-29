@@ -1,42 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeevan Portfolio</title>
+     <!-- New -->
+    <meta name="description" content="Portfolio of jeevan, Full Stack Developer, Student">
+    <meta name="keywords" content="Portfolio of jeevan, Full Stack Developer, Student, Python, Java, C++">
+    <meta name="author" content="jeevan">
+    <meta name="robots" content="index,follow">
+ 
+    <meta property="og:title" content="jeevan portfolio">
+    <meta property="og:description" content="Portfolio of jeevan, Full Stack Developer, Student">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jeevan.com">
+    <meta property="og:image" content="https://jeevan.com/img/profile.jpg">
+ 
+    <meta name="twitter:card" content="summary_portfolio">
+    <title>jeevan Portfolio</title>
 </head>
-
 <body>
-
+    <a href="#main-content">Skip to main content</a>
     <!-- Header contains the site title and navigation bar -->
     <header>
-        <h1>Jeevan</h1>
+        <h1>jeevan</h1>
         <p>Student</p>
 
         <!-- Navigation bar -->
-        <nav>
+        <nav aria-label="Main Navigation">
             <ul>
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#media">Media</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main content of the portfolio -->
-    <main>
+    <main id="main-content">
 
         <!-- Hero section -->
         <section id="hero">
             <h2>Hero Section</h2>
-            <p>Hello, I am Jeevan</p>
+            <p>Hello, I am <strong>jeevan</strong></p>
             <p>
-                I build web applications, teach modern web development,
+                I build <em>web applications</em>, teach modern web development,
                 and create learning experiences for myself.
             </p>
+            <figure>
+                <img src="profile.jpg" alt="Profile Picture" width="100" height="200px">
+                <figcaption>Profile picture of jeevan</figcaption>
+            </figure>
         </section>
 
         <!-- About Me section -->
@@ -49,13 +65,13 @@
                     full stack development, React, backend technologies, and education.
                 </p>
                 <p>
-                    I enjoy <em>building practical applications</em>, teaching job-oriented skills,
+                    I enjoy building practical applications, teaching job-oriented skills,
                     and helping learners understand concepts in a structured way.
                 </p>
-                <figure>
-                    <img src = "profile.jpg" alt="profile picture">
-                    <figcaption>profile picture of jeevan</figcaption>
-                </figure>
+                <p>
+                    I believe in <mark>coding</mark>, <strong>Practical Learning</strong>
+                    My goal is to help myself grow step by step with clarity &amp; confidence.
+                </p>
             </article>
 
             <aside>
@@ -89,6 +105,32 @@
                     <li>C</li>
                 </ul>
             </article>
+
+            <article>
+                <h3>Skill Summary Table</h3>
+                <table border="1">
+                    <caption>Tech Experience Overview</caption>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Tech</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Frontend</td>
+                            <td>HTML, CSS</td>
+                            <td>Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>Backend</td>
+                            <td>Python, Java, C++, C</td>
+                            <td>Advanced</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
         </section>
 
         <!-- Projects section -->
@@ -108,6 +150,14 @@
             </article>
         </section>
 
+        <section id="media">
+            <h2>Media</h2>
+            <article>
+                <h3>Introduction of jeevan</h3>
+                <video src="../Day3/sample-5s-360p.mp4" controls aria-label="Portfolio Introduction" width="350px" height="250px"></video>
+            </article>
+        </section>
+
         <!-- Contact section -->
         <section id="contact">
             <h2>Contact</h2>
@@ -118,7 +168,7 @@
             </p>
 
             <address>
-                <p>Email: <a href="mailto:Jeevan@example.com">Jeevan@example.com</a></p>
+                <p>Email: <a href="mailto:jeevan@example.com">jeevan@example.com</a></p>
                 <p>Location: Bengaluru, Karnataka, India</p>
             </address>
 
@@ -151,12 +201,11 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Jeevan. All rights reserved.</p>
+        <p>&copy; 2026 jeevan. All rights reserved.</p>
         <p>
             <a href="#hero">Back to Top</a>
         </p>
     </footer>
 
 </body>
-
 </html>
